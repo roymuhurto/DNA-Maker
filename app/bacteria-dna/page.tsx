@@ -22,7 +22,7 @@ export default function LearnMorePage() {
             <img
               src="circular-dna.png"
               alt="bacteriaDna"
-              className="w-36 md:w-44 lg:w-40"
+              className="transition-all duration-300 ease-in-out w-36 md:w-44 lg:w-40 hover:w-44 hover:cursor-zoom-in"
             />
           </div>
         </div>
@@ -42,7 +42,44 @@ export default function LearnMorePage() {
             <img
               src="single-dna.png"
               alt="ssDNA"
-              className="w-36 md:w-44 lg:w-40"
+              className="w-36 transition-all duration-300 ease-in-out  md:w-44 lg:w-40 hover:w-44 hover:cursor-zoom-in"
+            />
+          </div>
+        </div>
+        <div
+          className="border-8 border-black bg-white rounded-2xl 
+                        shadow-md shadow-gray-600 
+                        w-full max-w-xl lg:max-w-lg p-4"
+        >
+          <h1 className="text-sm md:text-base lg:text-sm font-semibold">
+            🧬 A-DNA: A-DNA is a right-handed, shorter and wider form of DNA
+            that usually forms in dry conditions or
+          </h1>
+
+          <div className="flex justify-center mt-3">
+            <img
+              src="a-dna.png"
+              alt="aDNA"
+              className="w-36 transition-all duration-300 ease-in-out  md:w-44 lg:w-40 hover:w-44 hover:cursor-zoom-in"
+            />
+          </div>
+        </div>
+        <div
+          className="border-8 border-black bg-white rounded-2xl 
+                        shadow-md shadow-gray-600 
+                        w-full max-w-xl lg:max-w-lg p-4"
+        >
+          <h1 className="text-sm md:text-base lg:text-sm font-semibold">
+            🧬 Z-DNA: Z-DNA is a rare form of DNA that twists to the left and
+            has a zigzag-shaped backbone instead of the usual right-handed
+            double helix.
+          </h1>
+
+          <div className="flex justify-center mt-3">
+            <img
+              src="z-dna.png"
+              alt="zDNA"
+              className="w-36 transition-all duration-300 ease-in-out  md:w-44 lg:w-40 hover:w-44 hover:cursor-zoom-in"
             />
           </div>
         </div>

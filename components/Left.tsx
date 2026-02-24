@@ -42,7 +42,11 @@ export default function Left({ pair, dnaType, size, speed }: Props) {
         ? "/circular-dna.png"
         : pair === "Single"
           ? "/single-dna.png"
-          : "/dna.png";
+          : pair === "Z"
+            ? "/z-dna.png"
+            : pair === "A"
+              ? "/A-dna.png"
+              : "/dna.png";
 
   return (
     <div

@@ -65,6 +65,8 @@ export default function Right({
           <option value="Double">Double stranded</option>
           <option value="Single">Single stranded</option>
           <option value="Circular">Circular</option>
+          <option value="Z">Z DNA</option>
+          <option value="A">A DNA</option>
         </select>
       </div>
 
