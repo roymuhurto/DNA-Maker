@@ -57,6 +57,16 @@ export default function LearnMorePage() {
             🧬📏 Fun DNA fact: DNA from one human cell is about 2 meters long.
           </h1>
         </div>
+
+        <div
+          className="border-8 border-black bg-white rounded-2xl 
+                        shadow-md shadow-gray-600 
+                        w-full max-w-xl lg:max-w-lg p-4"
+        >
+          <h1 className="text-sm md:text-base lg:text-sm font-semibold">
+            🍌🧑 Banana fact: share about 60% of your DNA with a banana.
+          </h1>
+        </div>
       </div>
 
       <div className="mt-6 flex justify-center">
