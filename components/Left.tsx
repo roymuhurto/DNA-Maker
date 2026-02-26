@@ -46,7 +46,9 @@ export default function Left({ pair, dnaType, size, speed }: Props) {
             ? "/z-dna.png"
             : pair === "A"
               ? "/A-dna.png"
-              : "/dna.png";
+              : pair === "H"
+                ? "/H-dna.png"
+                : "/h-dna.png";
 
   return (
     <div
@@ -73,7 +75,7 @@ export default function Left({ pair, dnaType, size, speed }: Props) {
           initial={{ y: -150 }}
           animate={{ y: speed >= 4 ? "130%" : "110%" }}
           transition={{
-            duration: 8 / speed,
+            duration: 5 / speed,
             delay: item.delay,
             repeat: Infinity,
             ease: "linear",

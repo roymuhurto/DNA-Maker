@@ -67,6 +67,7 @@ export default function Right({
           <option value="Circular">Circular</option>
           <option value="Z">Z DNA</option>
           <option value="A">A DNA</option>
+          <option value="H">H DNA</option>
         </select>
       </div>
 

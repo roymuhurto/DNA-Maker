@@ -84,6 +84,25 @@ export default function LearnMorePage() {
           </div>
         </div>
 
+        <div
+          className="border-8 border-black bg-white rounded-2xl 
+                        shadow-md shadow-gray-600 
+                        w-full max-w-xl lg:max-w-lg p-4"
+        >
+          <h1 className="text-sm md:text-base lg:text-sm font-semibold">
+            🧬 H-DNA: H-DNA forms when 3 DNA strands twist together instead of
+            2. It can form in special DNA sequences inside cells.
+          </h1>
+
+          <div className="flex justify-center mt-3">
+            <img
+              src="h-dna.png"
+              alt="DNA"
+              className="w-36 transition-all duration-300 ease-in-out  md:w-44 lg:w-40 hover:w-44 hover:cursor-zoom-in"
+            />
+          </div>
+        </div>
+
         {/* Fact Card */}
         <div
           className="border-8 border-black bg-white rounded-2xl 
