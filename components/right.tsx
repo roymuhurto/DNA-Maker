@@ -68,6 +68,9 @@ export default function Right({
           <option value="Z">Z DNA</option>
           <option value="A">A DNA</option>
           <option value="H">H DNA</option>
+          <option value="G">G-Quadruplex DNA</option>
+          <option value="C">Cruciform DNA</option>
+          <option value="Super">Supercoiled DNA</option>
         </select>
       </div>
 

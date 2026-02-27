@@ -48,7 +48,13 @@ export default function Left({ pair, dnaType, size, speed }: Props) {
               ? "/a-dna.png"
               : pair === "H"
                 ? "/h-dna.png"
-                : "/dna.png";
+                : pair === "G"
+                  ? "/g-quadruplex-dna.png"
+                  : pair === "C"
+                    ? "/cruciform-dna.png"
+                    : pair === "Super"
+                      ? "/supercoiled-dna.png"
+                      : "/dna.png";
 
   return (
     <div
@@ -70,10 +76,10 @@ export default function Left({ pair, dnaType, size, speed }: Props) {
           className="absolute opacity-100"
           style={{
             left: `${item.left}%`,
-            width: size * 16,
+            width: size * 18,
           }}
           initial={{ y: -150 }}
-          animate={{ y: speed >= 4 ? "130%" : "110%" }}
+          animate={{ y: speed >= 100 ? "900%" : "900%" }}
           transition={{
             duration: 5 / speed,
             delay: item.delay,

@@ -7,7 +7,7 @@ import HomePageButton from "@/components/HomePageButton";
 import Title from "@/components/Title";
 export default function DnaPage() {
   const [pair, setPair] = useState("Double");
-  const [speed, setSpeed] = useState(3);
+  const [speed, setSpeed] = useState(1);
   const [size, setSize] = useState(3);
   const [dnaType, setDnaType] = useState("double");
 

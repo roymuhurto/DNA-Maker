@@ -103,6 +103,62 @@ export default function LearnMorePage() {
           </div>
         </div>
 
+        <div
+          className="border-8 border-black bg-white rounded-2xl 
+                        shadow-md shadow-gray-600 
+                        w-full max-w-xl lg:max-w-lg p-4"
+        >
+          <h1 className="text-sm md:text-base lg:text-sm font-semibold">
+            🧬 G-Quadruplex DNA: G-Quadruplex DNA has a 4 stranded structure. It
+            is often found in important parts of chromosomes like telomere.
+          </h1>
+
+          <div className="flex justify-center mt-3">
+            <img
+              src="g-quadruplex-dna.png"
+              alt="DNA"
+              className="w-36 transition-all duration-300 ease-in-out  md:w-44 lg:w-40 hover:w-44 hover:cursor-zoom-in"
+            />
+          </div>
+        </div>
+
+        <div
+          className="border-8 border-black bg-white rounded-2xl 
+                        shadow-md shadow-gray-600 
+                        w-full max-w-xl lg:max-w-lg p-4"
+        >
+          <h1 className="text-sm md:text-base lg:text-sm font-semibold">
+            🧬 Cruciform DNA: G-Quadruplex DNA has a 4 stranded structure. It is
+            often found in important parts of chromosomes like telomere.
+          </h1>
+
+          <div className="flex justify-center mt-3">
+            <img
+              src="cruciform-dna.png"
+              alt="DNA"
+              className="w-36 transition-all duration-300 ease-in-out  md:w-44 lg:w-40 hover:w-44 hover:cursor-zoom-in"
+            />
+          </div>
+        </div>
+
+        <div
+          className="border-8 border-black bg-white rounded-2xl 
+                        shadow-md shadow-gray-600 
+                        w-full max-w-xl lg:max-w-lg p-4"
+        >
+          <h1 className="text-sm md:text-base lg:text-sm font-semibold">
+            🧬 Supercoiled DNA: Supercoiled DNA is DNA that is twisted even more
+            than the normal double helix shape.
+          </h1>
+
+          <div className="flex justify-center mt-3">
+            <img
+              src="supercoiled-dna.png"
+              alt="superDNA"
+              className="w-36 transition-all duration-300 ease-in-out  md:w-44 lg:w-40 hover:w-44 hover:cursor-zoom-in"
+            />
+          </div>
+        </div>
         {/* Fact Card */}
         <div
           className="border-8 border-black bg-white rounded-2xl 

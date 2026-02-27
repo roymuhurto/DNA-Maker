@@ -43,7 +43,7 @@ export default function HomeButton() {
 
         <span className="absolute inset-0 rounded-2xl bg-white/10 backdrop-blur-xl" />
 
-        <Link href="/bacteria-dna" className="relative z-10">
+        <Link href="/learn-more" className="relative z-10">
           Learn More 📗
         </Link>
       </motion.button>
