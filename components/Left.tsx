@@ -79,7 +79,7 @@ export default function Left({ pair, dnaType, size, speed }: Props) {
             width: size * 18,
           }}
           initial={{ y: -150 }}
-          animate={{ y: speed >= 100 ? "900%" : "900%" }}
+          animate={{ y: speed >= 100 ? "2000%" : "2000%" }}
           transition={{
             duration: 5 / speed,
             delay: item.delay,
