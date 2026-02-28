@@ -53,7 +53,7 @@ export default function LearnMorePage() {
         >
           <h1 className="text-sm md:text-base lg:text-sm font-semibold">
             🧬 A-DNA: A-DNA is a right-handed, shorter and wider form of DNA
-            that usually forms in dry conditions or
+            that usually forms in dry conditions.
           </h1>
 
           <div className="flex justify-center mt-3">
@@ -128,8 +128,8 @@ export default function LearnMorePage() {
                         w-full max-w-xl lg:max-w-lg p-4"
         >
           <h1 className="text-sm md:text-base lg:text-sm font-semibold">
-            🧬 Cruciform DNA: G-Quadruplex DNA has a 4 stranded structure. It is
-            often found in important parts of chromosomes like telomere.
+            🧬 Cruciform DNA: Cruciform DNA looks like a cross shape. It forms
+            when DNA has inverted repeat sequences.
           </h1>
 
           <div className="flex justify-center mt-3">
